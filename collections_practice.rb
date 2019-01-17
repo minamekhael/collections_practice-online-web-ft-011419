@@ -46,4 +46,5 @@ def add_s(array)
   if word = "feet"
     print "feet"
   else word + "s"
+  end
 end
