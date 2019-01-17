@@ -36,12 +36,16 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.inject do |sum, x|
+  array.inject do {|sum, x|}
     sum + x 
   end
 end
 
 def add_s(array)
-  array.each_with_index do {word, x}
-
+  array.each_with_index do {|word, x|}
+  array.collect |word|
+  if array[1] == word
+    word
+  else word + "s"
+  end
 end
