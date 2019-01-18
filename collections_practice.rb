@@ -48,6 +48,6 @@ def add_s(array)
     puts 
       word
   else 
-      word + "s"
+      word << "s"
   end
 end
