@@ -43,7 +43,13 @@ end
 
 def add_s(array)
   array.each_with_index do |word ,x|
+     if 
+       array[1] == "feet"
+       puts 
+       word 
+    else puts
       word << "s"
+       
       
   end
 end
