@@ -44,7 +44,7 @@ end
 def add_s(array)
   array.each_with_index do |word ,x|
   if
-    x == "feet"
+    x = "feet"
     puts 
       word
   else 
