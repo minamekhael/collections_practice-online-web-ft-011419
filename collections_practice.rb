@@ -42,9 +42,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |word|
+  array.each_with_index do |word ,x|
   if
-    word == "feet"
+    x == "feet"
     puts 
       word
   else 
