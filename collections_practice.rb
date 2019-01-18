@@ -43,7 +43,7 @@ end
 
 def add_s(array)
   array.each_with_index do |word ,x|
-
       word << "s"
+      
   end
 end
