@@ -43,11 +43,7 @@ end
 
 def add_s(array)
   array.each_with_index do |word ,x|
-  if
-    x = "feet"
-    puts 
-      word
-  else 
+
       word << "s"
     end
   end
