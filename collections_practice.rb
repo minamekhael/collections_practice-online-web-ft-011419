@@ -8,3 +8,8 @@ def sort_array_desc(array)
 end
 end
 
+def sort_array_char_count(array)
+  array.sort_by do |sort|
+    sort.length
+  end
+end
