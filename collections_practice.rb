@@ -40,3 +40,9 @@ def sum_array(array)
     sum + x 
   end
 end
+
+def add_s(array)
+  array.each do |item|
+    item << "s"
+  end
+end
